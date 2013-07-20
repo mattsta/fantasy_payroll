@@ -1,0 +1,14 @@
+{application, fantasy_payroll,
+ [
+  {description, "fantasy_payroll - check your take home in all states"},
+  {vsn, "0.3"},
+  {modules, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  ssl
+                 ]},
+  {env, []}
+ ]
+}.
